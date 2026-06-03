@@ -1,0 +1,5 @@
+# Install with: pip install -r requirements.txt
+NorenRestApiOAuth
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+pyotp>=2.9.0

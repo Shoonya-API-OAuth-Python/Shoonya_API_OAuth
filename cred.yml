@@ -1,0 +1,6 @@
+Access_token:  #it will be auto picked
+Account_ID: Your account id 
+Secret_Code: Your secret_Code  
+UID: Your account id 
+client_id: Your Client_id 
+oauth_url: https://api.shoonya.com/NorenWeb/authorize/oauth
