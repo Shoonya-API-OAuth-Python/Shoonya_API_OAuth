@@ -10,12 +10,12 @@ import json
 import hashlib
 import requests
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-CLIENT_ID   = "abc" # Replace abc with your Client _id 
-USER_ID     = "abc" # Replace abc  with your User_id
-PASSWORD    = "abc" # Replace abc with your trading Account password
-TOTP_SECRET = "abc" # Replace abc with 32 base string 
-LOGIN_URL   = f"https://api.shoonya.com/OAuthlogin/investor-entry-level/login?api_key={CLIENT_ID}&route_to= abc" # replace abc with userid
-SECRET_CODE = "abc" # Replace abc with your secret_code
+CLIENT_ID   = "FA30109_U" # Replace abc with your Client _id 
+USER_ID     = "FA30109" # Replace abc  with your User_id
+PASSWORD    = "Shahvez@2030" # Replace abc with your trading Account password
+TOTP_SECRET = "5SR4WMD4K7CKK4S335F755OH5P24QS76" # Replace abc with 32 base string 
+LOGIN_URL   = f"https://api.shoonya.com/OAuthlogin/investor-entry-level/login?api_key={CLIENT_ID}&route_to= FA30109" # replace abc with userid
+SECRET_CODE = "n1q3cIam0CgqEcK6CHbcLpbydyjAcqj2317D3cchJEaKBD3qIpJiHYYmHpfra3nc" # Replace abc with your secret_code
 TOKEN_URL   = "https://api.shoonya.com/NorenWClientAPI/GenAcsTok"
 
 
