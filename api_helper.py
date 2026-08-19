@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import concurrent.futures
 import requests
-
+from functools import partial
 api = None
 
 class Order:
