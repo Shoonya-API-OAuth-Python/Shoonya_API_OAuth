@@ -45,8 +45,8 @@ class NorenApiPy(NorenApi):
         _session.mount("https://", _adapter)
         _session.mount("http://", _adapter)
 
-        requests.get = _session.get
-        requests.post = _session.post
+        requests.get = partial(_session.get,timeout=(3,5))
+        requests.post = partial(_session.post,timeout=(3,5))
         #  end pooled session setup 
 
     def place_basket(self, orders):
